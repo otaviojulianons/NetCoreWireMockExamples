@@ -1,0 +1,93 @@
+{
+  "Guid": "83c72c35-b5c6-4ddb-a62a-a81572db198d",
+  "Title": null,
+  "Priority": null,
+  "Scenario": null,
+  "WhenStateIs": null,
+  "SetStateTo": null,
+  "Request": {
+    "ClientIP": null,
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/users/otaviojulianons",
+          "Patterns": null,
+          "IgnoreCase": false,
+          "RejectOnMatch": null
+        }
+      ]
+    },
+    "Url": null,
+    "Methods": [ "GET" ],
+    "Headers": null,
+    "Cookies": null,
+    "Params": null,
+    "Body": null
+  },
+  "Response": {
+    "StatusCode": 200,
+    "BodyDestination": null,
+    "Body":null,
+    "BodyAsJson": {
+      "login": "otaviojulianons",
+      "id": 123123,
+      "node_id": "MDQ6VXNlcjM4MzM2MjQx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38336241?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/otaviojulianons",
+      "html_url": "https://github.com/otaviojulianons",
+      "followers_url": "https://api.github.com/users/otaviojulianons/followers",
+      "following_url": "https://api.github.com/users/otaviojulianons/following{/other_user}",
+      "gists_url": "https://api.github.com/users/otaviojulianons/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/otaviojulianons/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/otaviojulianons/subscriptions",
+      "organizations_url": "https://api.github.com/users/otaviojulianons/orgs",
+      "repos_url": "https://api.github.com/users/otaviojulianons/repos",
+      "events_url": "https://api.github.com/users/otaviojulianons/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/otaviojulianons/received_events",
+      "type": "User",
+      "site_admin": false,
+      "name": "Otávio Nielsen",
+      "company": null,
+      "blog": "https://br.linkedin.com/in/otavio-nielsen-675343131",
+      "location": "Brazil - Porto Alegre",
+      "email": null,
+      "hireable": null,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 13,
+      "public_gists": 5,
+      "followers": 5,
+      "following": 17,
+      "created_at": "2018-04-13T00:13:00Z",
+      "updated_at": "2022-02-07T16:37:50Z"
+    },
+    "BodyAsJsonIndented": null,
+    "BodyAsBytes": null,
+    "BodyAsFile": null,
+    "BodyAsFileIsCached": null,
+    "BodyEncoding": null,
+    "UseTransformer": null,
+    "TransformerType": null,
+    "UseTransformerForBodyAsFile": null,
+    "Headers": {
+      "Set-Cookie": [
+        "IPS-CasasBahia=Midia=Newsletter&Parceiro=Facebook&Campanha=Promocao; domain=localhost; expires=Wed, 30-Jun-2021 23:59:59 GMT; path=/; secure; SameSite=None",
+        "IST-CasasBahia=IdCliente=37250044&Email=&Idade=&Sexo=&Nome=&Sobrenome=&OptinEmail=&OptinSMS=&Tipo=&Nascimento=&FonteLogin=Site&Plus=false; domain=localhost; path=/; secure; SameSite=None",
+        "IPSI-CasasBahia=itens=0&Apelido=Maicon; domain=localhost; expires=Sun, 23-Jun-2041 12:57:21 GMT; path=/; secure; SameSite=None",
+        "IPI-CasasBahia=UsuarioGUID=e6b5b77d-633a-4462-9aa0-9e127f638015&idClienteProvavel=6aj4Tup0oKCnHkcj0+eiwf7lvIMuQ0UoTN2nfcKA+sw=&Plus=0; domain=localhost; expires=Sun, 23-Jun-2041 12:57:21 GMT; path=/; secure; SameSite=None",
+        "sitecomercio=CEFA643FC8F4393B0AC37833021B2F8467C276D2474A2424D2EE7CE59D404B75365B801890DFC26BF9E5E2EAFB701113C57AD5F3A2A3B6EBE281EDBA4271A6D2AB5B5FCBF0B95D7B97CCFE11EADC320204EB8F80C5E0CFC094ECA5C67E0567BD7BAD1DFF3932F659C88555FEDCFF30822D57E307; domain=localhost; path=/; secure; HttpOnly; SameSite=None",
+        "ISI-CasasBahia=UsuarioVisaCheckout=False; domain=localhost; path=/; secure; SameSite=None"
+      ]
+    },
+    "HeadersRaw": null,
+    "Delay": null,
+    "ProxyUrl": null,
+    "X509Certificate2ThumbprintOrSubjectName": null,
+    "Fault": null,
+    "WebProxy": null
+  },
+  "SaveToFile": null,
+  "Webhook": null
+}
